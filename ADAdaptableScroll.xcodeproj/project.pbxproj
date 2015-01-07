@@ -14,6 +14,8 @@
 		6D3203811A5D6109001AC2E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3203801A5D6109001AC2E6 /* Images.xcassets */; };
 		6D3203841A5D6109001AC2E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3203821A5D6109001AC2E6 /* LaunchScreen.xib */; };
 		6D3203901A5D6109001AC2E6 /* ADAdaptableScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D32038F1A5D6109001AC2E6 /* ADAdaptableScrollTests.m */; };
+		6D32039B1A5D6167001AC2E6 /* ADAdaptableScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D32039A1A5D6167001AC2E6 /* ADAdaptableScroll.m */; };
+		6D32039D1A5D6899001AC2E6 /* hacker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D32039C1A5D6899001AC2E6 /* hacker.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		6D3203891A5D6109001AC2E6 /* ADAdaptableScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADAdaptableScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D32038E1A5D6109001AC2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D32038F1A5D6109001AC2E6 /* ADAdaptableScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAdaptableScrollTests.m; sourceTree = "<group>"; };
+		6D3203991A5D6167001AC2E6 /* ADAdaptableScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAdaptableScroll.h; sourceTree = "<group>"; };
+		6D32039A1A5D6167001AC2E6 /* ADAdaptableScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAdaptableScroll.m; sourceTree = "<group>"; };
+		6D32039C1A5D6899001AC2E6 /* hacker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hacker.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		6D3203721A5D6108001AC2E6 /* ADAdaptableScroll */ = {
 			isa = PBXGroup;
 			children = (
+				6D32039C1A5D6899001AC2E6 /* hacker.jpg */,
+				6D3203991A5D6167001AC2E6 /* ADAdaptableScroll.h */,
+				6D32039A1A5D6167001AC2E6 /* ADAdaptableScroll.m */,
 				6D3203771A5D6108001AC2E6 /* AppDelegate.h */,
 				6D3203781A5D6108001AC2E6 /* AppDelegate.m */,
 				6D32037A1A5D6108001AC2E6 /* ViewController.h */,
@@ -202,6 +210,7 @@
 				6D32037F1A5D6109001AC2E6 /* Main.storyboard in Resources */,
 				6D3203841A5D6109001AC2E6 /* LaunchScreen.xib in Resources */,
 				6D3203811A5D6109001AC2E6 /* Images.xcassets in Resources */,
+				6D32039D1A5D6899001AC2E6 /* hacker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D32039B1A5D6167001AC2E6 /* ADAdaptableScroll.m in Sources */,
 				6D32037C1A5D6108001AC2E6 /* ViewController.m in Sources */,
 				6D3203791A5D6108001AC2E6 /* AppDelegate.m in Sources */,
 				6D3203761A5D6108001AC2E6 /* main.m in Sources */,
